@@ -1,0 +1,264 @@
+#main {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* ------------ SECTION A ------------ */
+.section-menu {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.background-menu-div {
+	margin: 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.background-menu {
+	background: url(../Images/menu.jpg) center no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.4;
+}
+
+.menu-wrapper {
+	color: white;
+	letter-spacing: 0.2rem;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-transform: uppercase;
+}
+
+.menu-wrapper h1 {
+	font-size: 6rem;
+}
+
+.menu-wrapper p {
+	padding-top: 0.5rem;
+	font-size: 1.5rem;
+}
+
+/* ------------ SECTION B ------------ */
+
+.section-menu2 {
+	width: 100%;
+	height: auto;
+	background-color: rgb(0, 0, 0);
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+}
+
+.background-menu-2-div {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.background-menu-2 {
+	background: url(../Images/Menu/6.jpg) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.15;
+}
+
+.menu-wrapper-div1 {
+	position: relative;
+	padding: 0rem 3rem;
+}
+
+.menu-wrapper-div2 {
+	position: relative;
+	padding: 0rem 3rem;
+}
+
+.menu-wrapper-div3 {
+	position: relative;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-bottom: 2rem;
+}
+
+.section-food-container {
+	width: auto;
+	padding: 0.5rem 0rem;
+}
+
+.menu-title {
+	font-size: calc((1.5rem) + 0.4vh + 0.4vw);
+	font-weight: 100;
+	letter-spacing: 0.2rem;
+	color: #c59d5f;
+	text-transform: uppercase;
+	padding: 4rem 0;
+	display: flex;
+	justify-content: center;
+}
+
+.menu-title-drinks {
+	position: relative;
+	font-size: calc((1.5rem) + 0.4vh + 0.4vw);
+	font-weight: 100;
+	letter-spacing: 0.2rem;
+	color: #c59d5f;
+	text-transform: uppercase;
+	padding: 4rem 0;
+	display: flex;
+	justify-content: center;
+}
+
+.section-food-container h1 {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: calc((1rem) + 0.2vw + 0.2vh);
+	text-transform: uppercase;
+	margin: 1rem 0 0 0;
+	padding: 1rem 0 0 0;
+	font-weight: 100;
+}
+
+.section-food-container h5 {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: calc((1rem) + 0.2vw + 0.2vh);
+	text-transform: uppercase;
+	padding: 0rem;
+	font-weight: 100;
+}
+
+.price {
+	float: right;
+	font-size: calc((1.6rem) + 0.2vw + 0.2vh);
+	color: #c59d5f;
+}
+
+.valute {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: calc((0.7rem) + 0.3vw + 0.3vh);
+}
+
+.section-food-container .alcohol {
+	color: #c59d5f;
+	font-size: calc((1rem) + 0.3vw + 0.3vh);
+	text-transform: uppercase;
+	margin: 2rem 0;
+	font-weight: 100;
+}
+
+@media (min-width: 769px) {
+	.menu-wrapper-div1 {
+		width: 100%;
+		height: auto;
+		padding: 0rem 7rem;
+		padding-top: 7rem;
+		display: flex;
+		justify-content: center;
+	}
+
+	.menu-wrapper-1 {
+		width: 50%;
+		height: auto;
+		float: left;
+		padding: 0 5rem;
+	}
+
+	.menu-wrapper-2 {
+		width: 50%;
+		height: auto;
+		float: right;
+		padding: 0 5rem;
+	}
+
+	.menu-wrapper-div2 {
+		width: 100%;
+		height: auto;
+		padding: 7rem;
+		display: flex;
+		justify-content: center;
+	}
+
+	.menu-wrapper-3 {
+		width: 50%;
+		height: auto;
+		float: left;
+		padding: 0 5rem;
+	}
+	.menu-wrapper-4 {
+		width: 50%;
+		height: auto;
+		float: left;
+		padding: 0 5rem;
+	}
+
+	.menu-wrapper-div3 {
+		width: 100%;
+		height: auto;
+		padding: 7rem;
+		display: flex;
+	}
+
+	.menu-title-drinks {
+		font-size: calc((1.5rem) + 0.4vh + 0.4vw);
+		font-weight: 100;
+		letter-spacing: 0.2rem;
+		color: #c59d5f;
+		text-transform: uppercase;
+		padding: 4rem 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	.alcohol {
+		display: flex;
+		justify-content: center;
+	}
+
+	.menu-wrapper-5 {
+		width: 50%;
+		height: auto;
+		float: right;
+		padding: 0 5rem;
+	}
+
+	.menu-wrapper-6 {
+		width: 50%;
+		height: auto;
+		float: right;
+		padding: 0 5rem;
+	}
+
+	.menu-title {
+		display: flex;
+		justify-self: center;
+		width: 100%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+	.menu-wrapper-div1 {
+		padding: 0rem 0rem;
+	}
+
+	.menu-wrapper-div2 {
+		padding: 0rem 0rem;
+	}
+
+	.menu-wrapper-div3 {
+		padding: 0rem 0rem;
+	}
+}

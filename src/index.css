@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+	--main-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+	--secondary-font: 'Herr Von Muellerhoff', cursive;
+	--body-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+html {
+	font-family: var(--body-font);
+	font-size: 10px;
+	scroll-behavior: smooth;
+}
+
+section {
+	padding: 4rem 0;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 2.5rem;
 }

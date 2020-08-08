@@ -1,0 +1,139 @@
+#main {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+}
+
+/* -------------- SECTION A -------------- */
+
+.section-gallery {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.background-gallery-div {
+	margin: 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+.background-gallery {
+	background: url(../Images/gallery6.jpg) center no-repeat;
+	height: 100vh;
+	max-width: 100vw;
+	padding: 0;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.6;
+}
+
+.gallery-wrapper {
+	color: rgb(255, 255, 255);
+	letter-spacing: 0.2rem;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.gallery-wrapper h1 {
+	font-size: 6rem;
+	text-transform: uppercase;
+}
+
+.gallery-wrapper p {
+	padding-top: 0.5rem;
+	font-size: 1.5rem;
+}
+
+/* -------------- SECTION B -------------- */
+
+.section-gallery2 {
+	background-color: rgb(255, 255, 255);
+	padding: 5rem 0rem;
+}
+
+.img-gallery-div {
+	margin: 0 30rem;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.single-img {
+	width: 25%;
+	height: 40rem;
+	padding: 1rem;
+}
+
+.single-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media (max-width: 1600px) {
+	.img-gallery-div {
+		margin: 0 20rem;
+	}
+
+	.single-img {
+		width: 33.33%;
+	}
+}
+
+@media (max-width: 1450px) {
+	.img-gallery-div {
+		margin: 0 20rem;
+	}
+	.single-img {
+		width: 33.33%;
+		height: 40rem;
+		padding: 1rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.single-img {
+		width: 33.33%;
+		height: 40rem;
+		padding: 1rem;
+		margin: 0rem;
+	}
+
+	.img-gallery-div {
+		margin: 0rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.single-img {
+		width: 50%;
+		height: 40rem;
+		padding: 1rem;
+	}
+
+	.img-gallery-div {
+		margin: 0rem;
+	}
+}
+
+@media (max-width: 580px) {
+	.single-img {
+		width: 100%;
+		height: 40rem;
+		padding: 0.5rem 1rem;
+	}
+}
